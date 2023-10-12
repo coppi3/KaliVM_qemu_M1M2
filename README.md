@@ -1,6 +1,6 @@
 # Kali ARM VM with Qemu on Apple Silicon.
 ![Kali Qemu on Apple Silicon Neofetch](./images/main.png)
-> A simple guide on how to install ARM Kali VM running Appple Silicon computers.
+> A simple guide on how to install ARM Kali VM running Apple Silicon computers.
 
 ## Prerequisites
 1. Install qemu using brew
