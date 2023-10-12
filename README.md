@@ -1,4 +1,4 @@
-# Kali ARM VM using Qemu on MacBooks running M1/M2 processors.
+# Kali ARM VM with Qemu on Apple Silicon.
 This is a guide on how to install and run Kali VM (using native ARM image!).
 
 ## Prerequisites
