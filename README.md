@@ -42,8 +42,8 @@ qemu-system-aarch64 \
 In the future you should replace the `file=...iso` with the name if an image you downloaded if it doesn't match.
 4. By default installer uses a different tty after going into visual installation. So we need to change that by pressing `e` while being focused on `Visual installation`.  
 Replace `console=tty0` with `console=tty1` and hit `ctrl-x` to start installation.
-[focus on visual installation](./images/visual.png)
-[change tty in boot options](./images/options.png)
+![focus on visual installation](./images/visual.png)
+![change tty in boot options](./images/options.png)
 5. Follow the instructions and configure the system to your liking.
 6. After being asked for reboot close the Qemu window or `ctrl-c` the process in terminal.
 7. Boot up with this command.
@@ -65,9 +65,9 @@ qemu-system-aarch64 \
    -device nec-usb-xhci 
 ```
 8. Unfortunately, it won't work for the first time. 
-[uefi error](./images/uefi_error.png)
+![uefi error](./images/uefi_error.png)
 9. To actually boot into Kali we need to wait for efi shell. ( Or click `esc` on boot -> `Boot Manager`  -> `EFI Internal Shell`
 Then, enter the following commands to fix the boot problem. 
-[efi commands](./images/efi_shell.png)
+![efi commands](./images/efi_shell.png)
 10. After copying `efi` enter `reset` and the VM will reload into normal Kali Bootloader! Congratz! (You won't need to do all of this EFI BS from now on)
-[kali boot](./images/kali_boot.png)
+![kali boot](./images/kali_boot.png)
